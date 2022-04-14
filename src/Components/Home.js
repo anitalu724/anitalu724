@@ -14,9 +14,9 @@ const Home = () => {
     const particlesLoaded = (container) => { };
 
     return (
-        <div>
+        <div id="home">
             <NavBar/>
-            <div className={configData.HOME_PAGE_STYLE.BACKGROUND}>
+            <div id="homeContainer"className={configData.HOME_PAGE_STYLE.BACKGROUND}>
             <Particles
                 id="tsparticles"
                 init={particlesInit}
@@ -51,11 +51,10 @@ const Home = () => {
                     detectRetina: true,
                 }}
             />
-            <div className="container">
-                
-                <div className="row">
-                    <div className="col-md-4 img-fluid d-sm-block d-none">
-                        <img className="img-fluid profilePic" src={configData.SELF_INFO.SELF_PHOTO} alt="" data-aos="fade-up" data-aos-duration="500"/>
+            <div className="homeSubcontainer">
+                <div className="homeRow">
+                    <div className="imgDiv">
+                        <img className="profilePic" src={configData.SELF_INFO.SELF_PHOTO} alt="" data-aos="fade-up" data-aos-duration="500"/>
                     </div>
                     <div className="col-md-8 home-details" data-aos="fade-up" data-aos-duration="500">
                         <p className="personal-profile__name">{configData.NAME}</p>

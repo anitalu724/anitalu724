@@ -94,7 +94,7 @@
             "id": 1,
             "year": 2021,
             "title": "MutScape: an analytical toolkit for probing the mutational landscape in cancer genomics",
-            "img":"img/publications/mutscape.png",
+            "img":"https://github.com/anitalu724/MutScape/blob/main/mutscape/data/MutScape_movie.gif?raw=true",
             "authors":[
                 {
                     "name":"Cheng-Hua Lu",
@@ -121,6 +121,21 @@
                 "We developed a user-friendly Python toolkit, MutScape, which provides a comprehensive pipeline of filtering, combination, transformation, analysis and visualization for researchers, to easily explore the cohort-based mutational characterization for studying cancer genomics when obtaining somatic mutation data."
             ]
         }
+    ],
+    "HONORS_PAGE":[
+        {
+            "id": 1,
+            "title": "❖ Honorable Mention",
+            "host":"Bachelor’s Thesis Award, NTU",
+            "year": "2021"
+        },
+        {
+            "id": 2,
+            "title": "❖ Honorable Mention Award",
+            "host":"Summer Workshop @ NTU Centers of Genomic and Precision Medicine",
+            "year": "2020"
+        }
+
     ],
     "LINKED_LIST": {
         "Prof. Chung-Yang (Ric) Huang": "https://www.ee.ntu.edu.tw/profile1.php?teacher_id=901153",

@@ -1,0 +1,36 @@
+#honors {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 90px;
+    padding-bottom: 91px;
+    padding-left: 35px;
+    text-align: left;
+    /* border:red solid 1px; */
+}
+
+#honors h2{
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
+#honors ul{
+    /* border:red solid 1px; */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#honors li{
+    display: flex;
+}
+
+.itemHost{
+    padding-left: 3px;
+    padding-right: 3px;
+    font-weight: bold;
+}
+.itemYear{
+    padding-left: 3px;
+    padding-right: 3px;
+    color:gray;
+}

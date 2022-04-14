@@ -9,7 +9,6 @@ body{
     rgba(3, 3, 29, 1) 100%);
     background-repeat: no-repeat;
     background-position: right;
-    min-height: 600px;
     background-size: cover;
     
 }
@@ -19,7 +18,7 @@ body{
     54deg,hsla(0,34%,71%,.95) 23%,rgba(63, 64, 154, 0.95) );
     background-repeat: no-repeat;
     background-position: right;
-    min-height: 600px;
+
     background-size: cover;
     color: white;
 }
@@ -29,47 +28,49 @@ body{
     54deg,rgba(35, 36, 85, 0.95)  23%,rgba(218, 217, 217, 0.95));
     background-repeat: no-repeat;
     background-position: right;
-    min-height: 600px;
     background-size: cover;
     color: white;
 }
 
-.row{
+#homeContainer{
+    min-height: 100vh
+}
+.homeSubcontainer{
+  border:transparent solid 1px;
+  width:80%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homeRow{
+  display: flex;
+  /* border:yellow solid 1px; */
+  width: 90%;
+  height: 50%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  margin-left: auto;
+  margin-right: auto;
     /* font-family: 'Roboto Mono', monospace; */
 }
 
-.socialMedia{
-    /* border:solid red 2px; */
-    float: left;
-    
-}
-
-.socialMedia a{
-    font-size: 50px;
-    color:white;
-    margin:20px;
-}
-
-.socialMedia a:hover{
-    color: rgb(0, 0, 41);
-}
-
-
-
-
-
-
-
-
   
   .home-details{
-    margin-top: 100px;
+    padding: 30px;
     font-family: 'Roboto Mono', monospace;
+    /* border:green solid 1px; */
+  }
+  .imgDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .profilePic{
+    object-fit: contain;
     max-width: 90%;
     height: auto;
-    top: 90px;
+    /* top: 90px; */
     position: relative;
     border-radius: 5%;
   }
@@ -89,4 +90,21 @@ body{
     margin-bottom: 40px;
     text-align: left;
   }
+
+  .socialMedia{
+    /* border:solid red 2px; */
+    float: left;
+    
+}
+
+.socialMedia a{
+    font-size: 50px;
+    color:white;
+    margin:20px;
+    opacity: 50%;
+}
+
+.socialMedia a:hover{
+  opacity: 100%;
+}
   

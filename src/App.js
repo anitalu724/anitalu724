@@ -7,6 +7,8 @@ import Publications from "./Components/Publications";
 import Projects from "./Components/Projects";
 import About from "./Components/About";
 import Home from "./Components/Home";
+import Honors from "./Components/Honors";
+import Footer from "./Components/Footer";
 
 
 const App = () => {
@@ -17,6 +19,8 @@ const App = () => {
       <Experiences/>
       <Projects/>
       <Publications/>
+      <Honors/>
+      <Footer/>
     </div>
     // <Router>
     //   <NavBar/>

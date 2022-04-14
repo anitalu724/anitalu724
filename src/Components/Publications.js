@@ -1,5 +1,4 @@
 import React from 'react';
-import {parseBibFile} from "bibtex";
 import '../css/Publications.css';
 import Pub from './Pub';
 import configData from "../config.json";
