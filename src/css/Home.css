@@ -1,0 +1,92 @@
+body{
+    
+}
+#tsparticles{
+    /* height: 100vh; */
+}
+.tsparticles_black_and_white{
+    background: radial-gradient(circle, rgba(193, 196, 209, 1) 0%,
+    rgba(3, 3, 29, 1) 100%);
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 600px;
+    background-size: cover;
+    
+}
+
+.tsparticles_pink_and_blue{
+    background-image: linear-gradient(
+    54deg,hsla(0,34%,71%,.95) 23%,rgba(63, 64, 154, 0.95) );
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 600px;
+    background-size: cover;
+    color: white;
+}
+
+.tsparticles_blue_and_gray{
+    background-image: linear-gradient(
+    54deg,rgba(35, 36, 85, 0.95)  23%,rgba(218, 217, 217, 0.95));
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 600px;
+    background-size: cover;
+    color: white;
+}
+
+.row{
+    /* font-family: 'Roboto Mono', monospace; */
+}
+
+.socialMedia{
+    /* border:solid red 2px; */
+    float: left;
+    
+}
+
+.socialMedia a{
+    font-size: 50px;
+    color:white;
+    margin:20px;
+}
+
+.socialMedia a:hover{
+    color: rgb(0, 0, 41);
+}
+
+
+
+
+
+
+
+
+  
+  .home-details{
+    margin-top: 100px;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .profilePic{
+    max-width: 90%;
+    height: auto;
+    top: 90px;
+    position: relative;
+    border-radius: 5%;
+  }
+
+  .personal-profile__name {
+    font-size: 44px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .personal-profile__work {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  

@@ -1,0 +1,130 @@
+{
+    "NAME": "Cheng-Hua (Anita) Lu",
+    "SELF_INFO": {
+        "EMAIL": "r10921058@ntu.edu.tw",
+        "GITHUB": "https://github.com/anitalu724",
+        "LINKEDIN": "https://www.linkedin.com/in/anitalu724/",
+        "FACEBOOK": "https://www.facebook.com/profile.php?id=100005222118673",
+        "WEBSITE": "https://anitalu724.github.io/",
+        "SELF_PHOTO": "img/myPhoto.jpeg",
+        "SELF_DESCRIPTION":
+        [
+            "A Master's Student in NTU EE",
+            "A Web Developer ⚛",
+            "An Eager Learner ❤️"
+        ]
+    },
+    "HOME_PAGE_STYLE": {
+        "BACKGROUND": "tsparticles_blue_and_gray"
+    },
+    "ABOUT_PAGE": {
+        "DESCRIPTION":
+        [
+            "I am a master student at the National Taiwan University (NTU) Design Verification Lab supervised by Prof. Chung-Yang (Ric) Huang. I am adept at web programming and also working on the development of quantum circuit optimization.",
+            "I received my Bachelor's degree in Electrical Engineering from NTU in 2021, and I am studying for the master degree in Electrical Engineering, NTU. I have had the privilege to work with Prof. Chung-Yang (Ric) Huang at NTU. If you would like to learn more about me, please see my [ Résumé ] or contact me at r10921058 [at] ntu.edu.tw"
+        ]
+    },
+    "EXPERIENCES_PAGE":{
+        "Undergraduate student & researcher":{
+            "DATE":"2017 - 2021",
+            "AT":"National Taiwan University",
+            "LAB": "Electrical Engineering department Bioinformatics and biostatistics Core, NTU",
+            "Advisors":
+            {
+                "Prof. Eric Y. Chuang":"https://www.ee.ntu.edu.tw/profile1.php?teacher_id=901155",
+                "Prof. Chung-Yang (Ric) Huang": "http://www.ee.ntu.edu.tw/profile1.php?id=98"
+            }
+        }
+    },
+    "PROJECT_PAGE":[
+        {
+            "id": 1,
+            "img": "img/projects/ntuee+.png",
+            "name": "❖ NTUEE+ Website",
+            "date": "Sep 2019 - Present",
+            "website": "https://eeplus.ntuee.org/home",
+            "github": "https://github.com/NTUEE-PLUS/EndOfWeb",
+            "des": [
+              "➣ Built a complete network of NTUEE’s alumni and deepened the connection between NTUEE students.",
+              "➣ The services contain member verification, alumni’s interview to provide latest industrial information, recruitment information, and a self-recommendation system."
+            ],
+            "Technology": [
+              "#ReactJS",
+              "#HTML5",
+              "#CSS"
+            ]
+        },
+        {
+            "id": 2,
+            "img": "img/projects/skrik.png",
+            "name": "❖ SKRIK: A Simultaneously and Co-edited Coding Website",
+            "date": "Oct 2020 - Jan 2021",
+            "github": "https://github.com/jill880829/Skrik",
+            "des": [
+                "➣ Final Project for 109-1 Web Programming",
+                "➣ An online code editor which provides multiple users to edit the same project simultaneously."
+              ],
+              "Technology": [
+                "#ReactJS",
+                "#HTML5",
+                "#CSS",
+                "#MongoDB"
+              ]
+        },
+        {
+            "id": 3,
+            "img": "img/projects/mine.png",
+            "name": "❖ MineSweeper",
+            "date": "Sep 2021 - Oct 2021",
+            "website":"https://anitalu724.github.io/mineSweeper/",
+            "github": "https://github.com/anitalu724/mineSweeper",
+            "des": [
+                "➣ The question designed for 110-1 NTUEE Web programming Hackathon1",
+                "➣ An online MineSweeper Game."
+              ],
+              "Technology": [
+                "#ReactJS",
+                "#HTML5",
+                "#CSS"
+              ]
+        }
+    ],
+    "PUBLICATIONS_PAGE":[
+        {
+            "id": 1,
+            "year": 2021,
+            "title": "MutScape: an analytical toolkit for probing the mutational landscape in cancer genomics",
+            "img":"img/publications/mutscape.png",
+            "authors":[
+                {
+                    "name":"Cheng-Hua Lu",
+                    "url":"https://anitalu724.github.io/"
+                },
+                {
+                    "name":"Chia-Hsin Wu",
+                    "url":"https://anitalu724.github.io/"
+                },
+                {
+                    "name":"Mong-Hsun Tsai",
+                    "url":"https://anitalu724.github.io/"
+                },
+                {
+                    "name":"Liang-Chuan Lai",
+                    "url":"http://llai.cm.ntu.edu.tw/p/home"
+                },
+                {
+                    "name":"Eric Y Chuang",
+                    "url":"https://www.ee.ntu.edu.tw/profile1.php?teacher_id=901155"
+                }
+            ],
+            "des":[
+                "We developed a user-friendly Python toolkit, MutScape, which provides a comprehensive pipeline of filtering, combination, transformation, analysis and visualization for researchers, to easily explore the cohort-based mutational characterization for studying cancer genomics when obtaining somatic mutation data."
+            ]
+        }
+    ],
+    "LINKED_LIST": {
+        "Prof. Chung-Yang (Ric) Huang": "https://www.ee.ntu.edu.tw/profile1.php?teacher_id=901153",
+        "Résumé": "https://drive.google.com/file/d/1_J5tvuz0eE4QrF6oqXOp4rGx54yY3Wer/view?usp=sharing"
+    }
+
+}

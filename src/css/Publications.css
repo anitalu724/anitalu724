@@ -1,0 +1,11 @@
+#publications{
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 91px;
+    padding-left: 35px;
+    text-align: left;
+}
+#publications h2{
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}

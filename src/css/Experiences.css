@@ -1,0 +1,44 @@
+#experiences {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 91px;
+    padding-left: 35px;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    /* background-color: lightgray; */
+}
+
+.timeElement::content{
+    background-image: linear-gradient(
+    54deg,hsla(0,34%,71%,.95) 23%,rgba(63, 64, 154, 0.95) );
+    /* background-repeat: no-repeat; */
+    
+}
+.imgIcon{
+    width:60px;
+}
+.date{
+    color: grey;
+}
+
+
+.vertical-timeline-element-title{
+    font-weight: bold;
+}
+
+.vertical-timeline-element-subtitle{
+    color:lightgrey;
+}
+
+.advisor{
+    color: white;
+}
+.advisor a{
+    color: white;
+    text-decoration: underline;
+}
+.advisor a:hover{
+    color:rgba(149, 186, 234, 0.95);
+}

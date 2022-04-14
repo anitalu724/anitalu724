@@ -1,0 +1,114 @@
+.pubContainer{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border:red solid 1px; */
+}
+.pubContainer .row{
+    width:100%;
+    /* border:blue solid 1px; */
+    display: flex;
+}
+.pubContainer .row .pubImg{
+    /* border:purple solid 1px; */
+    width:30%;
+    height: 100%;
+}
+.pubContainer .row .pub-details{
+    /* border:yellow solid 1px; */
+    margin-left: 5%;
+    width:60%;
+    height: 100%;
+}
+.description li{
+    list-style: none;
+    text-align: left;
+    margin-left: -30px;
+    margin-top: 10px;
+    /* padding: 5px 5px; */
+    color: #222222;
+  }
+  .pubImg{
+    /* display: block;
+    background-color: #f1f1f1; */
+    /* padding-top: 90px; */
+    /* border-radius: 4px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; */
+    display:flex;
+    /* max-width: 60%; */
+    height: fit-content;
+    justify-content: center;
+    /* background-color: #f1f1f1; */
+  }
+  .pub-card__title {
+    font-size: 20px;
+    line-height: 30px;
+    /* font-family: Roboto Mono,monospace; */
+    /* text-transform: uppercase; */
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 30px;
+    color: rgba(63, 64, 154, 0.95);
+  }
+  .pub-details p{
+    text-align: left;
+    padding-left: 10px;
+    margin: 0;
+    margin-top: -10px;
+    padding-bottom: 15px;
+    color: grey;
+  }
+  .tags{
+    text-align: left;
+  }
+  .tags li {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #5225f712;
+    box-shadow: 0 1px 4px rgba(0,0,0,.14);
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  .pub-link {
+    text-align: left;
+    margin-left: 25px;
+    
+  }
+  .pub-link a {
+    text-decoration: none;
+    padding: 10px;
+    color:rgba(63, 64, 154, 0.95);
+    margin-right: 10px;
+    padding-top: 10px;
+  }
+  .pub-link a:hover{
+    background-color: rgba(63, 64, 154, 0.95);
+    color:white;
+    border-radius: 3px;
+    
+  }
+  .pubLinkIcon{
+      margin-top: -3px;
+      margin-right: 10px;
+      justify-content: top;
+      font-size: 24px;
+  }
+.authors{
+    margin-left: 10px;
+    margin-top: 0;
+}
+.author{
+    margin-right: 10px;
+    font-size: 16px;
+    color:grey;  
+}
+.author:hover{
+    color:rgba(149, 186, 234, 0.95);
+}
