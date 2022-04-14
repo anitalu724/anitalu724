@@ -4,7 +4,8 @@ import { Typewriter } from "react-simple-typewriter";
 import "../css/Home.css";
 import configData from "../config.json";
 import NavBar from "./NavBar";
-import { FaEnvelope, FaFacebookSquare, FaGithubSquare, FaLinkedin, FaResearchgate  } from "react-icons/fa";
+import { FaEnvelope, FaFacebookSquare, FaGithubSquare, FaLinkedin, FaGraduationCap  } from "react-icons/fa";
+
 
 const Home = () => {
     const particlesInit = (main) => {
@@ -78,6 +79,7 @@ const Home = () => {
                             <a href ={configData.SELF_INFO.FACEBOOK} target='_blank'><FaFacebookSquare/></a>
                             <a href ={configData.SELF_INFO.GITHUB} target='_blank'><FaGithubSquare/></a>
                             <a href ={configData.SELF_INFO.LINKEDIN} target='_blank'><FaLinkedin/></a>
+                            <a href ={configData.SELF_INFO.GOOGLESCHOLAR} target='_blank'><FaGraduationCap/></a>
                         </div>
                     </div>
                 </div>

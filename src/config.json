@@ -6,6 +6,7 @@
         "LINKEDIN": "https://www.linkedin.com/in/anitalu724/",
         "FACEBOOK": "https://www.facebook.com/profile.php?id=100005222118673",
         "WEBSITE": "https://anitalu724.github.io/",
+        "GOOGLESCHOLAR":"https://scholar.google.com/citations?hl=zh-TW&user=00fK5rkAAAAJ",
         "SELF_PHOTO": "img/myPhoto.jpeg",
         "SELF_DESCRIPTION":
         [
@@ -20,7 +21,7 @@
     "ABOUT_PAGE": {
         "DESCRIPTION":
         [
-            "I am a master student at the National Taiwan University (NTU) Design Verification Lab supervised by Prof. Chung-Yang (Ric) Huang. I am adept at web programming and also working on the development of quantum circuit optimization.",
+            "I am a master's student at the National Taiwan University (NTU) Design Verification Lab supervised by Prof. Chung-Yang (Ric) Huang. I am adept at web programming and also working on the development of quantum circuit optimization.",
             "I received my Bachelor's degree in Electrical Engineering from NTU in 2021, and I am studying for the master degree in Electrical Engineering, NTU. I have had the privilege to work with Prof. Chung-Yang (Ric) Huang at NTU. If you would like to learn more about me, please see my [ Résumé ] or contact me at r10921058 [at] ntu.edu.tw"
         ]
     },

@@ -1,7 +1,7 @@
 import React from 'react';
 import "../css/Footer.css";
 import configData from "../config.json";
-import { FaEnvelope, FaFacebookSquare, FaGithubSquare, FaLinkedin, FaResearchgate  } from "react-icons/fa";
+import { FaEnvelope, FaFacebookSquare, FaGithubSquare, FaLinkedin, FaGraduationCap  } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -16,6 +16,7 @@ const Footer = () => {
           <a href ={configData.SELF_INFO.FACEBOOK} target='_blank'><FaFacebookSquare/></a>
           <a href ={configData.SELF_INFO.GITHUB} target='_blank'><FaGithubSquare/></a>
           <a href ={configData.SELF_INFO.LINKEDIN} target='_blank'><FaLinkedin/></a>
+          <a href ={configData.SELF_INFO.GOOGLESCHOLAR} target='_blank'><FaGraduationCap/></a>
         </div>
         <div className="footerCol">
           <p className = "footerColP">This is an academic website for Cheng-Hua (Anita) Lu to share her experiences, projects, publications.</p>

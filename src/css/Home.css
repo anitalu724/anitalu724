@@ -101,10 +101,10 @@ body{
     font-size: 50px;
     color:white;
     margin:20px;
-    opacity: 50%;
+    opacity: 0.5;
 }
 
 .socialMedia a:hover{
-  opacity: 100%;
+  opacity: 1;
 }
   
